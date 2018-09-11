@@ -1,0 +1,27 @@
+{
+  "name": "blockchain-vote",
+  "version": "1.0.0",
+  "description": "simple blockchain voting system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekennewick/blockchain-vote.git"
+  },
+  "keywords": [
+    "blockchain",
+    "vote",
+    "node"
+  ],
+  "author": "mike kennewick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikekennewick/blockchain-vote/issues"
+  },
+  "homepage": "https://github.com/mikekennewick/blockchain-vote#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
