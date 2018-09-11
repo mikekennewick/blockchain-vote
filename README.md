@@ -7,6 +7,8 @@ Simple blockchain voting application.  This is a sample project for learning to 
 * Putting in a speedbump or slow sign
 * Resurface roadways
 * Adding bike lanes or walking paths
+* Landscaping public spaces
+* Fixing trails
 
 # Running
 The application is a Node.JS app that leverages Bootstrap 4.  
