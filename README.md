@@ -1,5 +1,5 @@
-# blockchain-vote
-Simple blockchain voting application.  This is a sample project for learning to program a distributed blockchain application.  The concept is that users propose projects in their community then solicit votes to see which projects are most desireable.  In a full application, one could imagine that community memebers might actually fund projects for their communities.
+# Blockchain Community Project Voter
+Simple blockchain voting application.  This is a sample project for learning to program a distributed blockchain application.  The concept is that users propose projects in their community then solicit votes to see which projects are most desireable.  Because the application leverages distributed nature of the blockchain the people can propose and manage projects in their neighborhoods without having to wait for the local governments or scheulded voting to gain support for their idea.  In a full, finished application, one could imagine that community memebers might actually fund projects for their communities and execute them possibly in a matter of days, especially if they do not include dependancies on government process such as infrasturcutre planning or permitting.  
 
 # Community Project Examples
 * Fixing up parks
