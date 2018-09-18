@@ -33,6 +33,8 @@ app.listen(app.get('port'), function () {
     console.log('Express started on http://localhost:' + app.get('port') + '; Press CTRL-C to terminate.');
 });
 
+// ROUTES FOR OUR WEBPAGES
+// =============================================================================
 // Ready to begin routing.
 app.get("/", function (req, res) {
   res.render('home');
@@ -47,4 +49,19 @@ app.get("/about", function (req, res) {
 app.get("/product", function (req, res) {
   res.render('product');
 });
+
+// ROUTES FOR OUR API
+// =============================================================================
+
+// test route to make sure everything is working (accessed at GET http://localhost:8080/api)
+router.get('/', function(req, res) {
+    res.json({ message: 'The api works' });   
+});
+
+// more routes for our API will happen here
+
+// REGISTER OUR ROUTES -------------------------------
+// all of our routes will be prefixed with /api
+app.use('/api', router);
+
 
